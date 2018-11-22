@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41A4D90F21A7134D00A9038C /* StudentDogModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 41A4D90E21A7134D00A9038C /* StudentDogModel.mlmodel */; };
 		41C480C821A5E0CF00982AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C480C721A5E0CF00982AFF /* AppDelegate.swift */; };
 		41C480CA21A5E0CF00982AFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C480C921A5E0CF00982AFF /* ViewController.swift */; };
-		41C480CD21A5E0CF00982AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C480CB21A5E0CF00982AFF /* Main.storyboard */; };
 		41C480CF21A5E0D100982AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C480CE21A5E0D100982AFF /* Assets.xcassets */; };
 		41C480D221A5E0D100982AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C480D021A5E0D100982AFF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41A4D90E21A7134D00A9038C /* StudentDogModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StudentDogModel.mlmodel; sourceTree = "<group>"; };
 		41C480C421A5E0CF00982AFF /* Marmota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marmota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C480C721A5E0CF00982AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C480C921A5E0CF00982AFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41C480CC21A5E0CF00982AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41C480CE21A5E0D100982AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C480D121A5E0D100982AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41C480D321A5E0D100982AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,9 +54,9 @@
 		41C480C621A5E0CF00982AFF /* Marmota */ = {
 			isa = PBXGroup;
 			children = (
+				41A4D90E21A7134D00A9038C /* StudentDogModel.mlmodel */,
 				41C480C721A5E0CF00982AFF /* AppDelegate.swift */,
 				41C480C921A5E0CF00982AFF /* ViewController.swift */,
-				41C480CB21A5E0CF00982AFF /* Main.storyboard */,
 				41C480CE21A5E0D100982AFF /* Assets.xcassets */,
 				41C480D021A5E0D100982AFF /* LaunchScreen.storyboard */,
 				41C480D321A5E0D100982AFF /* Info.plist */,
@@ -124,7 +124,6 @@
 			files = (
 				41C480D221A5E0D100982AFF /* LaunchScreen.storyboard in Resources */,
 				41C480CF21A5E0D100982AFF /* Assets.xcassets in Resources */,
-				41C480CD21A5E0CF00982AFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41A4D90F21A7134D00A9038C /* StudentDogModel.mlmodel in Sources */,
 				41C480CA21A5E0CF00982AFF /* ViewController.swift in Sources */,
 				41C480C821A5E0CF00982AFF /* AppDelegate.swift in Sources */,
 			);
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		41C480CB21A5E0CF00982AFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41C480CC21A5E0CF00982AFF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41C480D021A5E0D100982AFF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZJ62Q8JRTC;
 				INFOPLIST_FILE = Marmota/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZJ62Q8JRTC;
 				INFOPLIST_FILE = Marmota/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
