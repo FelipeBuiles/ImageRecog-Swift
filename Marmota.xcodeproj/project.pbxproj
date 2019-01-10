@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		415B001821B973280033B45D /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 415B001721B973280033B45D /* Resnet50.mlmodel */; };
 		41A4D90F21A7134D00A9038C /* StudentDogModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 41A4D90E21A7134D00A9038C /* StudentDogModel.mlmodel */; };
+		41BBE14321BC659200C19AE7 /* Labels.json in Resources */ = {isa = PBXBuildFile; fileRef = 41BBE14221BC659200C19AE7 /* Labels.json */; };
 		41C480C821A5E0CF00982AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C480C721A5E0CF00982AFF /* AppDelegate.swift */; };
 		41C480CA21A5E0CF00982AFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C480C921A5E0CF00982AFF /* ViewController.swift */; };
 		41C480CF21A5E0D100982AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C480CE21A5E0D100982AFF /* Assets.xcassets */; };
 		41C480D221A5E0D100982AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C480D021A5E0D100982AFF /* LaunchScreen.storyboard */; };
+		5122348053092B21A235C88D /* Pods_Marmota.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B4BFA75EC5AE52ED8E2F2D /* Pods_Marmota.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		415B001721B973280033B45D /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		41A4D90E21A7134D00A9038C /* StudentDogModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StudentDogModel.mlmodel; sourceTree = "<group>"; };
+		41BBE14221BC659200C19AE7 /* Labels.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Labels.json; sourceTree = "<group>"; };
 		41C480C421A5E0CF00982AFF /* Marmota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marmota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C480C721A5E0CF00982AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C480C921A5E0CF00982AFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41C480CE21A5E0D100982AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C480D121A5E0D100982AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41C480D321A5E0D100982AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559B1F7944882DB3BF982FB3 /* Pods-Marmota.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marmota.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marmota/Pods-Marmota.debug.xcconfig"; sourceTree = "<group>"; };
+		A786DE255F6ED27643290F1A /* Pods-Marmota.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marmota.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marmota/Pods-Marmota.release.xcconfig"; sourceTree = "<group>"; };
+		B4B4BFA75EC5AE52ED8E2F2D /* Pods_Marmota.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marmota.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5122348053092B21A235C88D /* Pods_Marmota.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				41C480C621A5E0CF00982AFF /* Marmota */,
 				41C480C521A5E0CF00982AFF /* Products */,
+				715A08EBC697C30C5C99DA2E /* Pods */,
+				8E79BD1830000CFF00D26AA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,33 @@
 		41C480C621A5E0CF00982AFF /* Marmota */ = {
 			isa = PBXGroup;
 			children = (
+				415B001721B973280033B45D /* Resnet50.mlmodel */,
 				41A4D90E21A7134D00A9038C /* StudentDogModel.mlmodel */,
 				41C480C721A5E0CF00982AFF /* AppDelegate.swift */,
 				41C480C921A5E0CF00982AFF /* ViewController.swift */,
 				41C480CE21A5E0D100982AFF /* Assets.xcassets */,
 				41C480D021A5E0D100982AFF /* LaunchScreen.storyboard */,
 				41C480D321A5E0D100982AFF /* Info.plist */,
+				41BBE14221BC659200C19AE7 /* Labels.json */,
 			);
 			path = Marmota;
+			sourceTree = "<group>";
+		};
+		715A08EBC697C30C5C99DA2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				559B1F7944882DB3BF982FB3 /* Pods-Marmota.debug.xcconfig */,
+				A786DE255F6ED27643290F1A /* Pods-Marmota.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E79BD1830000CFF00D26AA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4B4BFA75EC5AE52ED8E2F2D /* Pods_Marmota.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41C480D621A5E0D100982AFF /* Build configuration list for PBXNativeTarget "Marmota" */;
 			buildPhases = (
+				4F62D337CA0589C12746FDDE /* [CP] Check Pods Manifest.lock */,
 				41C480C021A5E0CF00982AFF /* Sources */,
 				41C480C121A5E0CF00982AFF /* Frameworks */,
 				41C480C221A5E0CF00982AFF /* Resources */,
+				79F6647D6B5725E05A42974C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,16 +156,57 @@
 			files = (
 				41C480D221A5E0D100982AFF /* LaunchScreen.storyboard in Resources */,
 				41C480CF21A5E0D100982AFF /* Assets.xcassets in Resources */,
+				41BBE14321BC659200C19AE7 /* Labels.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F62D337CA0589C12746FDDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marmota-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79F6647D6B5725E05A42974C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Marmota/Pods-Marmota-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marmota/Pods-Marmota-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41C480C021A5E0CF00982AFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				415B001821B973280033B45D /* Resnet50.mlmodel in Sources */,
 				41A4D90F21A7134D00A9038C /* StudentDogModel.mlmodel in Sources */,
 				41C480CA21A5E0CF00982AFF /* ViewController.swift in Sources */,
 				41C480C821A5E0CF00982AFF /* AppDelegate.swift in Sources */,
@@ -270,6 +343,7 @@
 		};
 		41C480D721A5E0D100982AFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559B1F7944882DB3BF982FB3 /* Pods-Marmota.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +363,7 @@
 		};
 		41C480D821A5E0D100982AFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A786DE255F6ED27643290F1A /* Pods-Marmota.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
